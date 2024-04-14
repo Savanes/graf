@@ -1,0 +1,94 @@
+.wrapper{
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.flex-con{
+    margin-top: 7px;
+    display: flex;
+    gap: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.wrap-name{
+    width: 40%;
+    background: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.wrap-revenuetoday{
+    background: rgb(238, 248, 255);
+    width: 20%;
+    text-align: center;
+}
+
+
+.wrap-revenueyesterday{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    background: rgb(238, 238, 238);
+    justify-content: center;
+}
+.wrap-revenueyesterday-green{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    background: rgb(237, 247, 232);
+    justify-content: center;
+}
+.wrap-revenueyesterday-red{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    background: rgb(252, 230, 230);
+    justify-content: center;
+}
+
+
+.procent-green{
+    color: rgb(43, 184, 43);
+}
+.procent-red{
+    color: rgb(214, 28, 28);
+}
+
+
+
+.wrap-revenueweek-grey{
+    width: 20%;
+    text-align: center;
+    background: rgb(238, 238, 238);
+}
+.wrap-revenueweek-green{
+    width: 20%;
+    text-align: center;
+    background: rgb(237, 247, 232);
+}
+.wrap-revenueweek-red{
+    width: 20%;
+    text-align: center;
+    background: rgb(252, 230, 230);
+}
+
+
+@media(max-width: 1100px){
+    .flex-con{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 475px){
+    .flex-con{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 375px){
+    .flex-con{
+        font-size: 11px;
+    }
+}
